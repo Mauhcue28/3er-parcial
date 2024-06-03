@@ -34,7 +34,7 @@ int main() {
                 }
             } while (true);
             std::cout << "el importe total de la factura es: " << total << std::endl;
-            break; // Exit the authentication loop if successful
+            break; 
         } else {
             std::cout << "acceso denegado\n";
         }
